@@ -61,13 +61,20 @@ class Pessoa {
 }
 
 public class Exe1_rev {
+    
+
+
     public int menu(){
+        Scanner leitor = new Scanner(System.in);
         int entrada = 0;
 
         do{
-            System.out.println(" Adcionar pessoa");
-
-
+            System.out.println(" 1. Adcionar pessoa.");
+            System.out.println(" 2. Mostrar pessoas.");
+            System.out.println(" 0. Sair.");
+            System.out.println(" Informe um opcao: ");
+            
+            
         }while();
 
         return entrada;
